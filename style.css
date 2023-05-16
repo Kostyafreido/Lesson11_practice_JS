@@ -8,13 +8,17 @@ body {
   font-family: "Roboto";
 }
 
-form {
+.form {
   width: 300px;
   margin: 20px auto;
   background: #b8b3b3;
   padding: 20px;
   border-radius: 6px;
   display: none;
+}
+
+.form.opened {
+  display: block;
 }
 
 #student {
